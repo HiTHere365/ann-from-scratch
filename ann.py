@@ -1,5 +1,5 @@
 """
-ann_sequence.py
+ann.py
 
 Simple 2-layer Artificial Neural Network (1 hidden layer) using NumPy.
 Trains with static backpropagation to predict the next number in a short
