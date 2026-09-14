@@ -60,7 +60,7 @@ class SimpleTwoLayerANN:
         np.random.seed(seed)
         self.learning_rate = learning_rate
 
-        # Initialize weights and biases with small random values
+        # Initialize weights with small random values; biases start at zero
         self.W1 = np.random.randn(input_size, hidden_size) * 0.1
         self.b1 = np.zeros((1, hidden_size))
         self.W2 = np.random.randn(hidden_size, output_size) * 0.1
